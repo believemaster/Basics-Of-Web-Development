@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+	<head>
+		<title>id and floating</title>
+		
+		
+		<style>
+		
+				#i{
+				color:red;
+				border:1px solid black;
+				widht:600px;
+				float:right;
+				clear:both;
+				
+				}
+				#ii{
+				color:yellow;
+				border:11px solid black;
+				widht:600px;
+				float:left;
+				clear:both;
+				/*special characters cannot be applied in the name of id or class and also restricted for the numbers also...but can work on alphanumbers like ab3 but not allowed to place number at first letter it must be lowrer or uppercase you can give many to the class but not to the id ...it must be unique*/
+				}
+				.iii{
+				color:blue;
+				border:1px solid black;
+				widht:600px;
+				float:right;
+				clear:both;
+				position:absolute;			/*can be static*/
+				top:500px;
+				left:50px;
+				z-index:6;
+				
+				
+				}
+				.iv{
+				color:blue;
+				border:1px solid black;
+				widht:600px;
+				float:right;
+				clear:both;
+				position:absolute;
+				top:300px;
+				left:30px;
+				z-index:5px;
+				
+				}
+				.ac{
+				position:relative;
+				left:50px;
+				right:50px;
+				}
+		
+				.top{
+				position:fixed;
+				left:50px;
+				right:50px;
+				color:red;
+				}
+				
+				p::first-line{
+				color:red;
+				content:"Yanik"
+				
+				}
+				p::before{
+				color:red;
+				content:"Yanik"		/*can be image or anything*/
+				
+				}
+				input:checked{
+				width:200px;
+				height:200px;
+				
+				input:radio{
+				width:200px;
+				height:200px;
+				
+				input:text{
+				width:200px;
+				height:200px;
+				}
+				
+				input:focus{
+				background="yellow";
+				}
+				
+				input:readonly{
+				width:200px;
+				height:200px;
+				}
+				input:required{
+				width:200px;
+				height:200px;
+				}
+				input:valid{
+				width:200px;
+				height:200px;
+				background:green;
+				}
+				
+		
+		</style>
+	</head>
+<body>
+
+		<div id="i">
+		<p>Steven Frayne (born 17 December 1982), better known by his stage name Dynamo, is an English magician.[2] <br>He has starred in his television show Dynamo: Magician Impossible which ran from July 2011 to present and won the Best Entertainment Programme <br>award at the Broadcast Awards in 2012. In 2015 he began touring with his Seeing Is Believing Arena Tour.</p>
+		</div>
+
+		<div id="ii">
+		<p>Steven Frayne (born 17 December 1982), better known by his stage name Dynamo, is an English magician.[2] <br>He has starred in his television show Dynamo: Magician Impossible which ran from July 2011 to present and won the Best Entertainment Programme <br>award at the Broadcast Awards in 2012. In 2015 he began touring with his Seeing Is Believing Arena Tour.</p>
+		</div>
+		
+		
+		<div class="iii">
+		<p>Steven Frayne (born 17 December 1982), better known by his stage name Dynamo, is an English magician.[2] <br>He has starred in his television show Dynamo: Magician Impossible which ran from July 2011 to present and won the Best Entertainment Programme <br>award at the Broadcast Awards in 2012. In 2015 he began touring with his Seeing Is Believing Arena Tour.</p>
+		</div>
+		
+		<div class="iv">
+		<p>Steven Frayne (born 17 December 1982), better known by his stage name Dynamo, is an English magician.[2] <br>He has starred in his television show Dynamo: Magician Impossible which ran from July 2011 to present and won the Best Entertainment Programme <br>award at the Broadcast Awards in 2012. In 2015 he began touring with his Seeing Is Believing Arena Tour.</p>
+		</div>
+		
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+		
+		<h1 class="top">magician</h1>
+		<h1 class="ac">magician</h1>
+		<h1>magician</h1>
+		<h1>magician</h1>
+		<br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br>
+		
+		<h1>pseudo element in class<h1>
+		
+		<p>Steven Frayne (born 17 December 1982), better known by his stage name Dynamo, is an English magician.[2] <br>He has starred in his television show Dynamo: Magician Impossible which ran from July 2011 to present and won the Best Entertainment Programme <br>award at the Broadcast Awards in 2012. In 2015 he began touring with his Seeing Is Believing Arena Tour.</p>
+		
+		
+		<input type="checkbox">
+		<input type="radio">
+		<input type="submit">
+		<input type="text" readonly>
+		<input type="text" required>
+		<input type="text" valid>
+		
+		
+		</body>
+
+</html>

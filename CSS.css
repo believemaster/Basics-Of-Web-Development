@@ -1,0 +1,44 @@
+<!doctyppe html>
+<html lang="en-us">
+<head>
+<title> CSS
+</title>
+<meta charset="utf-8"> 
+
+<link rel="style sheet" type="text/css" href="CSS.css">	
+<style>
+
+
+P,div,h1		<!--selector which selects all element-->
+{
+css property
+method of appyling style on elements in one go
+
+property name : value; 		//way of writing css context
+property name : value;
+
+}
+
+</style>
+
+
+</head>
+
+<body>
+<p>cascading style sheets<br>
+main fxn is to give colors to page and manage cotents of page and make page more beautiful
+3 ways to css-
+1>external style sheet use to apply on more than one pages but can effect whole pages layout
+2>internal style sheet only on one html page and only effect one page
+3>inline style sheet to give style to one single element only one element 
+<p style="">
+</p>
+
+
+
+
+
+
+</body>
+
+</html>
